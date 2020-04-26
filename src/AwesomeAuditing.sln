@@ -1,0 +1,62 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.30011.22
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "0 - Initialization", "0 - Initialization", "{EA9649AC-5285-4CD6-B9E2-32E40559560E}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "1 - Domain", "1 - Domain", "{C28CC21C-F353-470F-AEDF-F3D29C86DAA5}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "2 - Infra", "2 - Infra", "{AC78B369-6ED8-4834-A38A-99404278252F}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "3 - Dependencies", "3 - Dependencies", "{4C2F043C-1F57-45FD-BD7E-A74FBBAAA670}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "4 - Tests", "4 - Tests", "{0F95BF67-9558-4402-8C75-6906B8E66234}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "2.1 - Data", "2.1 - Data", "{A6D8B70D-74D5-433A-B36E-855F0D8B1859}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AwesomeAuditing.Initialization", "AwesomeAuditing.Initialization\AwesomeAuditing.Initialization.csproj", "{92C57D7B-CADA-4E02-9374-5BB108D7408C}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AwesomeAuditing.Domain", "AwesomeAuditing.Domain\AwesomeAuditing.Domain.csproj", "{A24F6ABD-0043-4B53-AB41-F67EC55C99C1}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AwesomeAuditing.Infra.Data", "AwesomeAuditing.Infra.Data\AwesomeAuditing.Infra.Data.csproj", "{2221BC40-AD79-46CA-8F3F-A0E4EA2629FD}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AwesomeAuditing.Test", "AwesomeAuditing.Test\AwesomeAuditing.Test.csproj", "{A8999418-7F8F-48B4-9B79-61FE7D9A6115}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{92C57D7B-CADA-4E02-9374-5BB108D7408C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{92C57D7B-CADA-4E02-9374-5BB108D7408C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{92C57D7B-CADA-4E02-9374-5BB108D7408C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{92C57D7B-CADA-4E02-9374-5BB108D7408C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A24F6ABD-0043-4B53-AB41-F67EC55C99C1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A24F6ABD-0043-4B53-AB41-F67EC55C99C1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A24F6ABD-0043-4B53-AB41-F67EC55C99C1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A24F6ABD-0043-4B53-AB41-F67EC55C99C1}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2221BC40-AD79-46CA-8F3F-A0E4EA2629FD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2221BC40-AD79-46CA-8F3F-A0E4EA2629FD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2221BC40-AD79-46CA-8F3F-A0E4EA2629FD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2221BC40-AD79-46CA-8F3F-A0E4EA2629FD}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A8999418-7F8F-48B4-9B79-61FE7D9A6115}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A8999418-7F8F-48B4-9B79-61FE7D9A6115}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A8999418-7F8F-48B4-9B79-61FE7D9A6115}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A8999418-7F8F-48B4-9B79-61FE7D9A6115}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{A6D8B70D-74D5-433A-B36E-855F0D8B1859} = {AC78B369-6ED8-4834-A38A-99404278252F}
+		{92C57D7B-CADA-4E02-9374-5BB108D7408C} = {EA9649AC-5285-4CD6-B9E2-32E40559560E}
+		{A24F6ABD-0043-4B53-AB41-F67EC55C99C1} = {C28CC21C-F353-470F-AEDF-F3D29C86DAA5}
+		{2221BC40-AD79-46CA-8F3F-A0E4EA2629FD} = {A6D8B70D-74D5-433A-B36E-855F0D8B1859}
+		{A8999418-7F8F-48B4-9B79-61FE7D9A6115} = {0F95BF67-9558-4402-8C75-6906B8E66234}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {64A60F4E-A812-4D51-BC0B-B16980A1A3C3}
+	EndGlobalSection
+EndGlobal
